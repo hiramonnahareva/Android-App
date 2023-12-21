@@ -21,16 +21,17 @@
       android:gravity="center"
       android:text="AL-Fatiha"
       android:textColor="#009688"
-      android:textSize="46sp" />
+      android:textSize="46sp"
+      tools:ignore="HardcodedText" />
 
   <ImageView
       android:layout_width="match_parent"
       android:layout_height="150dp"
-      android:src="@drawable/banner"
-      android:scaleType="centerCrop"
       android:layout_marginTop="20dp"
       android:layout_marginBottom="20dp"
-      />
+      android:scaleType="centerCrop"
+      android:src="@drawable/banner"
+      tools:ignore="ContentDescription" />
 
   <LinearLayout
       android:layout_width="match_parent"
@@ -39,7 +40,7 @@
       android:weightSum="4"
       android:background="#ffffff"
       android:padding="10dp"
-      >
+      android:baselineAligned="false">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -52,9 +53,10 @@
       <TextView
           android:layout_width="fill_parent"
           android:layout_height="wrap_content"
-          android:textColor="#ffffff"
-          android:text="Surah"
           android:gravity="center"
+          android:text="Surah"
+          tools:ignore="HardcodedText"
+          android:textColor="#ffffff"
           android:textSize="20sp"
 
 
@@ -72,6 +74,7 @@
           android:layout_width="fill_parent"
           android:layout_height="wrap_content"
           android:text="Para"
+          tools:ignore="HardcodedText"
           android:gravity="center"
           android:textSize="20sp"
 
@@ -89,6 +92,7 @@
           android:layout_width="fill_parent"
           android:layout_height="wrap_content"
           android:text="Page"
+          tools:ignore="HardcodedText"
           android:gravity="center"
           android:textSize="20sp"
 
@@ -106,6 +110,7 @@
           android:layout_width="fill_parent"
           android:layout_height="wrap_content"
           android:text="Hijab"
+          tools:ignore="HardcodedText"
           android:gravity="center"
           android:textSize="20sp"
           />
@@ -122,7 +127,7 @@
       android:orientation="vertical"
       android:background="#ffffff"
       android:layout_marginTop="20dp"
-      android:layout_marginBottom="20px"
+      android:layout_marginBottom="20dp"
       >
     <LinearLayout
         android:layout_width="match_parent"
@@ -137,7 +142,7 @@
           android:src="@drawable/star"
           android:layout_weight="6"
           android:padding="10dp"
-          />
+          tools:ignore="ContentDescription" />
       <LinearLayout
           android:layout_width="match_parent"
           android:layout_height="match_parent"
@@ -150,6 +155,7 @@
             android:layout_height="60dp"
             android:textSize="18sp"
             android:text="In the name of allah, the Entirely Merchiful."
+            tools:ignore="HardcodedText"
             />
         <TextView
             android:layout_width="match_parent"
@@ -157,6 +163,7 @@
             android:textSize="20sp"
             android:textColor="#2A73E1"
             android:text="In the name of Allah."
+            tools:ignore="HardcodedText"
             />
 
       </LinearLayout>
@@ -171,7 +178,7 @@
           android:orientation="vertical"
           android:background="#ffffff"
           android:layout_marginTop="20dp"
-          android:layout_marginBottom="20px"
+          android:layout_marginBottom="20dp"
           >
         <LinearLayout
             android:layout_width="match_parent"
@@ -181,6 +188,7 @@
             android:weightSum="7"
             >
           <ImageView
+              tools:ignore="ContentDescription"
               android:layout_width="fill_parent"
               android:layout_height="match_parent"
               android:src="@drawable/star"
@@ -199,6 +207,7 @@
                 android:layout_height="60dp"
                 android:textSize="18sp"
                 android:text="In the name of allah, the Entirely Merchiful."
+                tools:ignore="HardcodedText"
                 />
             <TextView
                 android:layout_width="match_parent"
@@ -206,6 +215,7 @@
                 android:textSize="20sp"
                 android:textColor="#2A73E1"
                 android:text="In the name of Allah."
+                tools:ignore="HardcodedText"
                 />
 
           </LinearLayout>
@@ -220,7 +230,7 @@
           android:orientation="vertical"
           android:background="#ffffff"
           android:layout_marginTop="20dp"
-          android:layout_marginBottom="20px"
+          android:layout_marginBottom="20dp"
           >
         <LinearLayout
             android:layout_width="match_parent"
@@ -230,6 +240,7 @@
             android:weightSum="7"
             >
           <ImageView
+              tools:ignore="ContentDescription"
               android:layout_width="fill_parent"
               android:layout_height="match_parent"
               android:src="@drawable/star"
@@ -248,7 +259,7 @@
                 android:layout_height="60dp"
                 android:textSize="18sp"
                 android:text="In the name of allah, the Entirely Merchiful."
-                />
+                tools:ignore="HardcodedText" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -278,6 +289,7 @@
             android:weightSum="7"
             >
           <ImageView
+              tools:ignore="ContentDescription"
               android:layout_width="fill_parent"
               android:layout_height="match_parent"
               android:src="@drawable/star"
@@ -303,6 +315,7 @@
                 android:textSize="20sp"
                 android:textColor="#2A73E1"
                 android:text="In the name of Allah."
+                tools:ignore="HardcodedText"
                 />
 
           </LinearLayout>
